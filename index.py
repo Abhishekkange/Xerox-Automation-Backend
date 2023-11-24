@@ -46,10 +46,8 @@ def print_file(file_name):
             0,
             "print",
             file_name,
-            #
-            # If this is None, the default printer will
-            # be used anyway.
-            #
+          
+
             '/d:"%s"' % win32print.GetDefaultPrinter(),
             ".",
             0
